@@ -4,7 +4,7 @@ Sebelum memulai untuk menjalankan projek ini ada beberapa hal yang harus disiapk
 1. Jalankan front-end
 2. Jalankan back-end
 
-`Jalankan front-end dan back-end secara BERSAMAAAN (buka dua tab)`
+`Jalankan front-end dan back-end secara BERGILIRAN tanpa mematikan server (buka dua tab / terminal)`
 
 ## Front-End
 
