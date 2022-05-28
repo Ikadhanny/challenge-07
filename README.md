@@ -1,6 +1,3 @@
-# FSW Challenge 07
-Diyah Ayu Fitriana - FSW6
-
 ## Getting Started
 
 Sebelum memulai untuk menjalankan projek ini ada beberapa hal yang harus disiapkan.
@@ -11,7 +8,7 @@ Sebelum memulai untuk menjalankan projek ini ada beberapa hal yang harus disiapk
 
 ## Front-End
 
-Buka folder project `fsw-challenge7`, lalu install semua dependencies, dengan menjalankan
+Buka folder project `challenge-07`, lalu install semua dependencies, dengan menjalankan
 ```
 yarn install
 ```
@@ -22,22 +19,11 @@ yarn start
 ```
 
 ## Back-End
-Buka folder project `fsw-challenge7`, lalu `cd/backend` untuk berpindah ke folder `backend`. Selanjutnya install semua dependencies, dengan menjalankan
+Buka folder project `challenge-07`, lalu `cd/backend` untuk berpindah ke folder `backend`. Selanjutnya install semua dependencies, dengan menjalankan
 ```
 yarn install
 ```
-
-Kemudian, lakukan migration ke database
-```
-sequelize db:migrate
-```
-
-Masukkan beberapa data yang diperlukan dengan menjalankan
-```
-sequelize db:seed:all
-```
-
-Selanjutnya untuk menjalankan project backend, jalankan dengan perintah
+Menjalankan project backend, jalankan dengan perintah
 ```
 yarn develop
 ```
@@ -45,7 +31,7 @@ yarn develop
 ## Cloud Database
 Database yang digunakan dalam database ini menggunakan database cloud, gunakan aplikasi `TablePlus` kemudian create new connection menggunakan URL berikut
 ```
-postgres://jilkeiou:V7TzxoODuLCQ7dmhalVZ5hQ1BYP2j0xJ@tiny.db.elephantsql.com/jilkeiou
+postgres://zwetnoba:jqtb4_d73kwN5MgQslKj1N5l5sQOxA9u@tiny.db.elephantsql.com/zwetnoba
 ```
 
 ## Database Management
@@ -56,4 +42,3 @@ Di dalam repository ini sudah terdapat beberapa script yang dapat digunakan dala
 - `yarn db:drop` digunakan untuk menghapus database
 - `yarn db:migrate` digunakan untuk menjalankan database migration
 - `yarn db:seed` digunakan untuk melakukan seeding
-- `yarn db:rollback` digunakan untuk membatalkan migrasi terakhir
